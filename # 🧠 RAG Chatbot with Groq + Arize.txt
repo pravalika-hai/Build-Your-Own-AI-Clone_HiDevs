@@ -1,0 +1,38 @@
+# 🧠 RAG Chatbot with Groq + Arize + LangChain + Streamlit
+
+A ready-to-deploy GenAI chatbot using Retrieval-Augmented Generation (RAG), Groq LLM inference, and Arize Phoenix evaluation.
+
+## 🧩 Features
+
+- FAISS vector search over documents in `docs/`
+- LLaMA3 via Groq API
+- Streamlit user interface
+- Evaluation logs via Arize Phoenix
+
+## 🛠️ Setup
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/rag-chatbot.git
+    cd rag-chatbot
+    ```
+
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Add your documents to the `docs/` folder.
+
+4. Add your Groq API key in `app.py`.
+
+5. Run the app:
+    ```bash
+    streamlit run app.py
+    ```
+
+---
+
+## 📁 docs/
+
+Place any `.txt` or `.pdf` files you want the chatbot to read in this folder.
